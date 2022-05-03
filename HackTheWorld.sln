@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheWorld.Domain", "HackTheWorld.Domain\HackTheWorld.Domain.csproj", "{EEDD4E4B-E54E-4690-A9D3-86384B045A18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheWorld.Repository", "HackTheWorld.Repository\HackTheWorld.Repository.csproj", "{6C624095-CCA2-46A3-A3F1-DBA130140E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HackTheWorld", "HackTheWorld", "{2EE24FFA-8D8D-4486-9252-2712A7F3E589}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEDD4E4B-E54E-4690-A9D3-86384B045A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDD4E4B-E54E-4690-A9D3-86384B045A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDD4E4B-E54E-4690-A9D3-86384B045A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDD4E4B-E54E-4690-A9D3-86384B045A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C624095-CCA2-46A3-A3F1-DBA130140E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C624095-CCA2-46A3-A3F1-DBA130140E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C624095-CCA2-46A3-A3F1-DBA130140E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C624095-CCA2-46A3-A3F1-DBA130140E02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB27B959-F738-4C10-BE15-CDAFA49E5DB5}
+	EndGlobalSection
+EndGlobal
