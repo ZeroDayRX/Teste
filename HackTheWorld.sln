@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheWorld.Domain", "HackTheWorld.Domain\HackTheWorld.Domain.csproj", "{EEDD4E4B-E54E-4690-A9D3-86384B045A18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Domain", "HackTheWorld.Domain\Api.Domain.csproj", "{EEDD4E4B-E54E-4690-A9D3-86384B045A18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheWorld.Repository", "HackTheWorld.Repository\HackTheWorld.Repository.csproj", "{6C624095-CCA2-46A3-A3F1-DBA130140E02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Repository", "HackTheWorld.Repository\Api.Repository.csproj", "{6C624095-CCA2-46A3-A3F1-DBA130140E02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HackTheWorld", "HackTheWorld", "{2EE24FFA-8D8D-4486-9252-2712A7F3E589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheWorld.View", "HackTheWorld.View\HackTheWorld.View.csproj", "{E943D53A-E263-4D81-A52B-79B50347FAAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A40306B9-2733-4CC8-B854-637210169D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +27,18 @@ Global
 		{6C624095-CCA2-46A3-A3F1-DBA130140E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C624095-CCA2-46A3-A3F1-DBA130140E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C624095-CCA2-46A3-A3F1-DBA130140E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E943D53A-E263-4D81-A52B-79B50347FAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E943D53A-E263-4D81-A52B-79B50347FAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E943D53A-E263-4D81-A52B-79B50347FAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E943D53A-E263-4D81-A52B-79B50347FAAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEDD4E4B-E54E-4690-A9D3-86384B045A18} = {A40306B9-2733-4CC8-B854-637210169D26}
+		{6C624095-CCA2-46A3-A3F1-DBA130140E02} = {A40306B9-2733-4CC8-B854-637210169D26}
+		{E943D53A-E263-4D81-A52B-79B50347FAAB} = {2EE24FFA-8D8D-4486-9252-2712A7F3E589}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB27B959-F738-4C10-BE15-CDAFA49E5DB5}
